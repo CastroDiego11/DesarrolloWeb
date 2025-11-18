@@ -1,0 +1,129 @@
+/* Estilos de fuente y color usando Google Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #2c3e50;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.main-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #2980b9;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subtitle {
+    font-family: 'Montserrat', sans-serif;
+    color: #3498db;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro-text {
+    font-size: 1.2em;
+    color: #34495e;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.country-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.country-section article {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 800px;
+}
+
+.country-section h3 {
+    color: #e74c3c;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.country-image {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.country-section p {
+    font-size: 1em;
+    color: #2c3e50;
+    text-align: justify;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+.country-section a {
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.country-section a:hover {
+    color: #f39c12;
+    text-decoration: underline;
+}
+
+.additional-info {
+    margin: 40px 0;
+}
+
+.country-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.country-table th, .country-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.country-table th {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+.country-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.footer-text {
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
